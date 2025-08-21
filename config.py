@@ -32,6 +32,11 @@ LOGGER_ID = int(getenv("LOGGER_ID", -1002344707828))
 # Get this value from @PURVI_HELP_BOT on Telegram by /id
 OWNER_ID = int(getenv("OWNER_ID", 5536473064))
 
+API_URL = getenv("API_URL", 'https://api.thequickearn.xyz') #youtube song url
+VIDEO_API_URL = getenv("VIDEO_API_URL", 'https://api.video.thequickearn.xyz')
+API_KEY = getenv("API_KEY", '30DxNexGenBots7fG9kL') # youtube song api key, generate free key or buy paid plan from panel.thequickearn.xyz
+
+
 
 # make your bots privacy from telegra.ph and put your url here 
 PRIVACY_LINK = getenv("PRIVACY_LINK", "https://graph.org/PRIVACY-FOR-TEAM-PURVI-BOTS-09-18")
