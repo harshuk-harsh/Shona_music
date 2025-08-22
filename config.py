@@ -32,8 +32,8 @@ LOGGER_ID = int(getenv("LOGGER_ID", -1002344707828))
 # Get this value from @PURVI_HELP_BOT on Telegram by /id
 OWNER_ID = int(getenv("OWNER_ID", 5536473064))
 
-YOUR_API_KEY = getenv("YOUR_API_KEY", "strangerapid7879bf7a")
-YOUR_API_URL = getenv("YOUR_API_URL", "http://46.38.237.240:8000") # youtube song api key, generate free key or buy paid plan from panel.thequickearn.xyz
+API_URL = getenv("API_URL", 'https://api.thequickearn.xyz') #youtube song url
+API_KEY = getenv("API_KEY", '30DxNexGenBots7b87de') # youtube song api key, generate free key or buy paid plan from panel.thequickearn.xyz
 
 
 
